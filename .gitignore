@@ -1,0 +1,9 @@
+# Ignorar el entorno virtual
+.venv/
+__pycache__/
+
+# Ignorar todos los CSV por defecto (para no ensuciar)
+*.csv
+
+# ¡EXCEPCIÓN! Permitir subir los CSV que estén dentro de 'data'
+!data/*.csv
