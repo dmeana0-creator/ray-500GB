@@ -108,5 +108,5 @@ if __name__ == "__main__":
     # Guardamos en la ruta construida dinámicamente
     df.to_csv(FILENAME, index=False, encoding='utf-8')
 
-    print(f"✅ Archivo generado exitosamente.")
-    print(f"📊 Dimensiones finales: {df.shape}")
+    print(f"Archivo generado exitosamente.")
+    print(f"Dimensiones finales: {df.shape}")
